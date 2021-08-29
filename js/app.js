@@ -18,7 +18,7 @@ function displayData(allData) {
             const col = document.createElement('div');
             col.classList.add('col');
             col.innerHTML = `
-            <div class="card">
+            <div class="card h-100">
                 <img src="${data.strMealThumb}" class="card-img-top" alt="...">
                 <div class="card-body">
                 <h5 class="card-title">${data.strMeal}</h5>
