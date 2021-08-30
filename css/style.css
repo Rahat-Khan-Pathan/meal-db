@@ -5,3 +5,43 @@
     font-size: 15px;
     display: none;
 }
+body {
+    background-color: #b4dbf0 !important;
+}
+.card {
+    border-radius: 20px !important;
+    padding: 15px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+.card-img-top {
+    border-radius: 20px !important;
+}
+.card-title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 15px !important;
+    color: #1F1F1F;
+}
+.card-text {
+    text-align: left;
+    color: #4E4E4E;
+    font-weight: 400;
+    font-size: 1rem;
+}
+.card-body h3 {
+    font-size: 1.25rem;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.card-body a {
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 600;
+    color: white;
+    background: black;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+.card-body a:hover {
+    color: white;
+}

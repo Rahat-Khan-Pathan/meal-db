@@ -11,19 +11,21 @@
     <link rel="stylesheet" href="css/style.css">
     <!-- Bootstrap CSS  -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <!-- Font Awesome  -->
+    <script src="https://kit.fontawesome.com/5ee61e3497.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
     <main>
-        <section class="container">
-            <h1 class="text-center mt-5">Get Your Fabourite Meal</h1>
+        <section class="container pt-5">
+            <h1 class="text-center">Get Your Fabourite Meal</h1>
             <div class="input-group mb-3 mt-5 w-75 m-auto">
                 <input type="text" class="form-control" placeholder="Search for food"
                     aria-label="Recipient's username" aria-describedby="button-addon2" id="input-meal">
                 <button class="btn btn-outline-dark" type="button" id="button-search">Search</button>
             </div>
-            <p id="result-message" class="text-danger fw-bolder text-center">No Result Found!</p>
+            <p id="error-message" class="text-danger fw-bolder text-center"></p>
             <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 mb-5 g-4 mt-5" id="row">
             </div>
             <div class="text-center" id="spinner" >
